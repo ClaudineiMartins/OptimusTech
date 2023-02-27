@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url("assets/css/reset.css");
+@import url("assets/css/cabecalho.css");
+
+:root{
+
+    --fonte-Principal: "Inter";
+    --branco:#FFFFFF;
+    --cinza-claro:#F9FAFB;
+    --cinza:#667085;
+    --cinza-escuro:#3A404E;
+    --azul-escuro:#101828;
+    --vermelho-claro:rgba(196, 25, 25, 0.03);
+    --vermelho:#8E2424;
+
+
+}
+body{
+    font-family: var(--fonte-Principal);
+    font-weight: 400;
+}
