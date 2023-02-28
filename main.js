@@ -8,7 +8,6 @@ var botaoFecharMensagem = document.querySelector(".PopUp-mensagem_fechar");
 
 
 btnCadastrarEmail.addEventListener('click', ()=>{
-    emailDigitado.value=""
     if(!validarEmail(emailDigitado.value)){
         fundoDesfocado.style.display="block";
         PopUpMensagem.style.display="block";
@@ -24,6 +23,9 @@ btnCadastrarEmail.addEventListener('click', ()=>{
 
 
     }
+    emailDigitado.value=""
+
+    
 })
 botaoFecharMensagem.addEventListener('click', ()=>{
     fundoDesfocado.style.display="none";
