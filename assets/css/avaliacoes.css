@@ -3,9 +3,10 @@
     flex-direction: column; 
     align-items: center;
     justify-content: center;
-    margin: 0 112px;
+    margin: 0 96px 112px;
     background: var(--vermelho-claro);
     padding:64px 64px;
+
 }
 .avaliacoes span {
     color: var(--vermelho);
