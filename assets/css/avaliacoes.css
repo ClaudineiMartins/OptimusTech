@@ -42,3 +42,11 @@
     font-size: 14px;
     line-height: 20px;
 }
+@media screen and (max-width:490px){
+    .avaliacoes{
+        margin: 32px;
+    }
+    .avaliacoes_titulo{
+        font-size: 22px;
+    }
+}
