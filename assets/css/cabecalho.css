@@ -1,10 +1,14 @@
 .cabecalho{
+    position: relative;
     height: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 15%;
 
+}
+.cabecalho__menu{
+    display: none;
 }
 .logo{
     display: flex;
@@ -28,12 +32,7 @@
     font-weight: 500;
     text-decoration: none;
 }
-/* .navbar a:hover, .botoes a:hover{
-    transition: .5s;
-    background-color: var(--vermelho-claro);
-    padding: 10px 18px;
-    border-radius:8px ;
-} */
+
 
 .botoes{
     display: flex;
@@ -50,4 +49,47 @@
 }
 a.botao__cadastrar{
     color: var(--branco);
+}
+@media screen and (max-width: 940px){
+    .cabecalho {
+        gap: 0;
+    }
+    .navbar{
+        gap: 16px;
+    }
+    .botoes{
+        gap: 24px;
+    }
+}
+@media screen and (max-width:490px) {
+    .cabecalho__menu{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    .cabecalho__menu--links{
+
+        background-color: var(--vermelho);
+        width: 150px;
+        height: 100vh;
+        padding-top: 50px;
+        position: absolute;
+        left: -150px;
+        top: 80px;
+       
+    }
+    .menu-lateral-ativo{
+        transition: .2s;
+        left: 0;
+    }
+    .cabecalho__menu--link{
+        text-decoration: none;
+        color: var(--branco);
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    
 }
