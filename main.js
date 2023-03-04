@@ -44,3 +44,10 @@ function validarEmail(email) {
     const expressaoRegular = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return expressaoRegular.test(email);
 }
+
+    var botaoMenu = document.querySelector(".cabecalho__menu");
+    var menuLateral= document.querySelector(".cabecalho__menu--links");
+
+    botaoMenu.addEventListener('click', () => {
+        menuLateral.classList.toggle("menu-lateral-ativo");
+    })
