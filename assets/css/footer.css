@@ -94,7 +94,7 @@ footer{
 .PopUp-Mensagem p {
     position: absolute;
     top: calc(50% - 11px);
-    margin-left: 32px;
+    margin: 0 32px;
     
 }
 .PopUp-mensagem_fechar{
@@ -104,3 +104,19 @@ footer{
     top: 5px;
 
 }
+@media screen and (max-width:490px) {   
+    footer{
+        padding: 48px 16px;
+    }
+    .footer_formulario{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        /* align-items: center; */
+    }
+    .PopUp-Mensagem{
+        width: 60%;
+    }
+    .PopUp-Mensagem p{
+        margin: 0 16px;
+    }
