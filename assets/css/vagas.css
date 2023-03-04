@@ -70,3 +70,22 @@
 .vagas-profissao--salario{
     margin-left: 24px;
 }
+@media screen and (max-width:940px) {
+    .vagas-area {
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width:490px){
+    .vagas{
+        margin: 32px;
+        gap: 16px;
+    }
+    .vagas_titulo{
+        margin-top: 32px;
+        
+    }
+    .vagas-area{
+        width: 90%;
+    }
+}
